@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="js\angular.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -92,8 +93,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\prices\" />
+    <Folder Include="app\products\" />
     <Folder Include="App_Data\" />
+    <Folder Include="common\services\" />
     <Folder Include="Controllers\" />
+    <Folder Include="css\" />
+    <Folder Include="fonts\" />
+    <Folder Include="images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
