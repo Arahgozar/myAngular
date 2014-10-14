@@ -37,6 +37,7 @@ function ProductListCtrl() {
     vm.toggleImage= function () {
 
         vm.showImage = !vm.showImage;
+       
     }
 
 }

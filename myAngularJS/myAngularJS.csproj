@@ -74,12 +74,25 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="app\products\productListCtrl.js" />
+    <Content Include="content\toastr.css" />
+    <Content Include="content\toastr.min.css" />
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="js\angular.js" />
+    <Content Include="content\toastr.scss" />
+    <Content Include="content\toastr.less" />
+    <None Include="Scripts\jquery-1.6.3-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.3.js" />
+    <Content Include="Scripts\jquery-1.6.3.min.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\toastr.min.js" />
+    <Content Include="test.html" />
+    <Content Include="css\toastr.css" />
+    <Content Include="js\toastr.js" />
     <Content Include="Web.config" />
+    <Content Include="Scripts\toastr.min.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
