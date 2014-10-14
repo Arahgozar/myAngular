@@ -74,16 +74,22 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="app\products\productListCtrl.js" />
+    <Content Include="Archive\index.html" />
+    <Content Include="common\services\productResource.js" />
     <Content Include="content\toastr.css" />
     <Content Include="content\toastr.min.css" />
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="js\angular-mocks.js" />
+    <Content Include="js\angular-resource.js" />
     <Content Include="js\angular.js" />
     <Content Include="content\toastr.scss" />
     <Content Include="content\toastr.less" />
+    <Content Include="common\services\common.services.js" />
     <None Include="Scripts\jquery-1.6.3-vsdoc.js" />
+    <Content Include="common\services\productResourceMock.js" />
     <Content Include="Scripts\jquery-1.6.3.js" />
     <Content Include="Scripts\jquery-1.6.3.min.js" />
     <Content Include="Scripts\toastr.js" />
@@ -116,7 +122,6 @@
   <ItemGroup>
     <Folder Include="app\prices\" />
     <Folder Include="App_Data\" />
-    <Folder Include="common\services\" />
     <Folder Include="Controllers\" />
     <Folder Include="images\" />
     <Folder Include="Models\" />
