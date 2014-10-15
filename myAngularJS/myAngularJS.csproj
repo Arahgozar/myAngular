@@ -74,7 +74,9 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="app\products\productListCtrl.js" />
-    <Content Include="Archive\index.html" />
+    <Content Include="Archive\V1\index.html" />
+    <Content Include="Archive\V1\common.services.js" />
+    <Content Include="Archive\V1\productResource.js" />
     <Content Include="common\services\productResource.js" />
     <Content Include="content\toastr.css" />
     <Content Include="content\toastr.min.css" />

@@ -8,9 +8,9 @@ function ProductListCtrl(productResource) {
 
     var vm = this;
 
-    productResource.query(function (data) {
+    productResource.query(function (chert) {
 
-        vm.products = data;
+        vm.products = chert;
     });
     /*
     vm.products=[
